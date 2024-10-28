@@ -26,3 +26,33 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+
+:host {
+  display: flex;
+  justify-content: center;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.center-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 16px auto;
+  text-align: center;
+}
+
+ion-content {
+  --padding-start: 0;
+  --padding-end: 0;
+}

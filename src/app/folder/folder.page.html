@@ -1,21 +1,27 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="content-center"> 
+  <!-- Card untuk Foto -->
+  <ion-card class="center-card">
+    <ion-img src="assets/fotokhansa.jpg" style="width: 200px; height: auto;"></ion-img>
+  </ion-card>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- Card untuk Penjelasan -->
+  <ion-card class="center-card">
+    <ion-card-content>
+      <p>Halo, nama aku Khansa Khalda dengan NIM H1D022086</p>
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <!-- Komponen Tambahan -->
+  <ion-card class="center-card">
+    <ion-card-header>
+      <ion-card-title>Tentang Saya</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Saya adalah mahasiswa yang tertarik dengan pengembangan aplikasi menggunakan Ionic Framework. Selain itu, saya juga menyukai pemrograman web dan memiliki ketertarikan di bidang desain UI/UX.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" color="primary" style="margin-top: 16px;">
+    Hubungi Saya
+  </ion-button>
 </ion-content>
