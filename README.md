@@ -44,6 +44,7 @@ Berikut source code nya:
 </ion-content>
 
 
+
 2. **Tambahkan Gambar fotokhansa.jpg ke Folder assets**:
 
 - Tempatkan file gambar fotokhansa.jpg di dalam folder src/assets.
