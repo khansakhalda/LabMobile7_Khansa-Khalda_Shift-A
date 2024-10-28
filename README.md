@@ -12,7 +12,7 @@ Untuk menambahkan komponen di halaman Ionic, Anda bisa mengikuti langkah-langkah
 
 1. **Tambahkan Codingan di folder.page.html**:
 
-**<ion-content class="content-center">
+<//ion-content class="content-center">
   <!-- Card untuk Foto -->
   <ion-card class="center-card">
     <ion-img src="assets/fotokhansa.jpg" style="width: 200px; height: auto;"></ion-img>
@@ -39,7 +39,7 @@ Untuk menambahkan komponen di halaman Ionic, Anda bisa mengikuti langkah-langkah
   <ion-button expand="block" color="primary" style="margin-top: 16px;">
     Hubungi Saya
   </ion-button>
-</ion-content>**
+</ion-content//>
 
 
 2. **Tambahkan Gambar fotokhansa.jpg ke Folder assets**:
